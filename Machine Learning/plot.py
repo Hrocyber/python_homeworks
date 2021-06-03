@@ -2,14 +2,14 @@ import matplotlib.pyplot as plp
 
 x = [1, 8, 17]
 y = [4, 8, 19]
-plp.plot(x, y)
+# plp.plot(x, y)
 # plp.ylabel("diagrama")
 # plp.xlabel("uxxordvac")
-# plp.bar(x,y,color="purple")
-# plp.barh(x,y)
+# # plp.bar(x,y,color="purple")
+# plp.barh(x, y)
 # plp.scatter(x,y)
 # plp.scatter(x,y,color="green")
-# plp.plot(x,y,"b+-")
+plp.plot(x,y,"b+-")
 # x2 = [7, 5, 19]
 # y2 = [1, 2, 7]
 # plp.bar(x2, y2)
